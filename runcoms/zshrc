@@ -11,3 +11,12 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+# === Aliases ===
+alias gp="git push"
+alias gu="git reset --"
+#alias cat="bat"
+#alias ping="prettyping"
+
+# === SCM Breeze (https://github.com/scmbreeze/scm_breeze) ===
+[ -s "/Users/edelgadomonroy/.scm_breeze/scm_breeze.sh" ] && source "/Users/edelgadomonroy/.scm_breeze/scm_breeze.sh"
